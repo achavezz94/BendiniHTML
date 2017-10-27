@@ -1,0 +1,414 @@
+#navbar-default-bg: rgb(99,22,22);
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.block {
+
+	color: red;
+}
+
+logo {
+	color: white;
+	font-family: 'lobster', cursive;
+	font-size: 50px;
+	line-height: 35px;
+}
+
+icon {
+  left: 0px;
+  padding-top: 8px;
+}
+
+body {
+	padding-top: 70px;
+	background: #fff2db;
+	}
+
+.jumbotron {
+	background:none;
+	height: auto;
+	border-radius: 25px 25px 25px 25px;
+	}
+
+#sliders {
+	border-radius: 25px 25px 25px 25px;
+}
+
+.carousel-indicators{
+	border-radius: 25px;
+}
+
+.navbar-nav li a{
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+    weight: bold;
+}
+
+
+#glance {
+	text-align: center;
+	display: block;
+	clear:both;
+	padding-right: 30px;
+
+}
+
+.homeabout {
+	height: 850px;
+	width: device-width;
+	display: inline;
+}
+
+.style_image1{
+	width: 300px;
+	height:11px;
+	max-width: 300px;
+
+
+}
+
+
+#facebook1 {
+	border-radius: 10px;
+}
+
+.homecollection {
+	height: 850px;
+	margin:20px;
+	padding-top: 25px;
+	background-size: 300px;
+	width: device-width;
+	display: inline;
+	text-align: center;
+}
+
+
+.collectionbody {
+	color: black;
+	font-size:20px;
+	margin: 20px;
+	font-weight: Bold;
+	display: inline;
+	margin-bottom: 20px;
+	}
+
+.list {
+	padding-left: 150px;
+}
+
+
+.homecontact{
+	position: relative;
+	clear:both;
+	display: inline;
+
+}
+
+#bendinicontact {
+	right: 0;
+	text-align: right;
+	display: block;
+	clear:both;
+	padding-right: 30px;
+}
+
+.contactinfo {
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: left;
+	display:inline;
+}
+
+#item1 {
+	color: white;
+	font-size: 18px;
+}
+
+#item2 {
+	font-size: 20px;
+	font-weight: Bold;
+	color: black;
+	text-decoration: underline;
+	display: inline;
+	}
+
+.contactandmap {
+	float: center;
+}
+
+#map {
+	height: 400px;
+}
+
+.fb-like {
+	display: block;
+}
+
+#footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  height:40px;   /* Height of the footer */
+  background-color: rgb(99,22,22);
+}
+
+footer { position: absolute;
+
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  }
+
+#footer-text {
+	color: white;
+	text-align: center;
+}
+
+#copyright {
+  font-size: 10px;
+}
+
+h1 {
+	color: #630909;
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-family: 'Lobster', cursive;
+	text-decoration: underline;
+	text-indent: 50px;
+
+	padding-left: 50px;
+}
+
+p {
+	font-size: 20px;
+	letter-spacing:2px;
+	font-weight: Bold;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: black;
+}
+
+
+a {
+	color: inherit;
+}
+
+ul {
+	margin: 10px 0;
+}
+
+
+.marketing-site-content-section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.marketing-site-content-section .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-img {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+.marketing-site-content-section .marketing-site-content-section-block {
+  padding: 1rem;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-block {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    padding: 2rem;
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 50px;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 20px;
+}
+
+
+.thumbnail1 figure {
+  display:none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnail1 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail1:focus figure,
+.thumbnail1:hover figure {
+  display: block;
+}
+.thumbnail1:focus p,
+.thumbnail1:hover p {
+
+}
+
+
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: block;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

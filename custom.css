@@ -1,0 +1,9 @@
+.navbar-default-bg: rgb(99,22,22);
+
+
+.navbar-nav{
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+    weight: bold;
+}
